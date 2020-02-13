@@ -8,6 +8,7 @@ BASE_HOA = {
 def add_character(show, name)
   hash_name[show] << name
 hash_name[show]  
+show 
 end
     
 
