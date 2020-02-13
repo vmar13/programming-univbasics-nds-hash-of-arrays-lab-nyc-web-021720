@@ -6,11 +6,12 @@ BASE_HOA = {
 
 
 def add_character(show, name)
-  [show] << nam
+  [show][1] << name
+show 
 end
 
 (:third_earthers, "Snarf")).to eq(["Lion-O", "Cheetara", "Mumm-Ra (the ever-living)", "Snarf"])
-    end
+    
 
 # Write your implementation here
   # Should return the array of the 'show' argument
