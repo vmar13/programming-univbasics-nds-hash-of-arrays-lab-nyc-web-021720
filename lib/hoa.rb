@@ -6,8 +6,8 @@ BASE_HOA = {
 
 
 def add_character(show, name)
-  hash_name[show] << name
-hash_name[show]  
+  BASE_HOA[show] << name
+BASE_HOA[show]  
 show 
 end
     
